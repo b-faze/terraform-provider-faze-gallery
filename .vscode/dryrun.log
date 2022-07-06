@@ -1,0 +1,10 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'g:/Source/Repos/terraform-provider-faze-gallery'
+go build -o terraform-provider-faze-gallery.exe
+ 
+setlocal enableextensions enabledelayedexpansion
+if not exist "C:\Users\Ben Magistris\AppData\Roaming\terraform.d\plugins\faze.com\gallery\faze-gallery\0.1\windows_amd64\" md "C:\Users\Ben Magistris\AppData\Roaming\terraform.d\plugins\faze.com\gallery\faze-gallery\0.1\windows_amd64"
+endlocal
+move "terraform-provider-faze-gallery.exe" "C:\Users\Ben Magistris\AppData\Roaming\terraform.d\plugins\faze.com\gallery\faze-gallery\0.1\windows_amd64"
+make: Leaving directory 'g:/Source/Repos/terraform-provider-faze-gallery'
+ 
