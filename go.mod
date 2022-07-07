@@ -3,7 +3,7 @@ module terraform-provider-faze-gallery
 go 1.18
 
 require (
-	github.com/b-faze/faze-gallery-client-go v0.0.0-20220706141657-dd04605e00ad
+	github.com/b-faze/faze-gallery-client-go v0.0.0-20220707110154-9fd26035b78f
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.17.0
 )
 
@@ -40,7 +40,7 @@ require (
 	github.com/vmihailenco/msgpack/v4 v4.3.12 // indirect
 	github.com/vmihailenco/tagparser v0.1.1 // indirect
 	github.com/zclconf/go-cty v1.10.0 // indirect
-	golang.org/x/net v0.0.0-20220630215102-69896b714898 // indirect
+	golang.org/x/net v0.0.0-20220706163947-c90051bbdb60 // indirect
 	golang.org/x/oauth2 v0.0.0-20220630143837-2104d58473e0 // indirect
 	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
 	golang.org/x/text v0.3.7 // indirect

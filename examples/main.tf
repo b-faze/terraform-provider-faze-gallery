@@ -20,7 +20,7 @@ output "psl" {
 }
 
 resource "fazegallery_visualisation" "edu" {
-  name = "name1"
+  name = "name3"
 }
 
 output "edu_order" {

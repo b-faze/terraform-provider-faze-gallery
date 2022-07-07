@@ -5,6 +5,6 @@ provider "faze.com/gallery/faze-gallery" {
   version     = "0.1.0"
   constraints = "0.1.0"
   hashes = [
-    "h1:XeIPKNZqMvqCw46ga7mw48wN/bURl2G4EfMNeykYEQE=",
+    "h1:0EBnehRV4TO3EfzjJJ9WKIAuYw3EyrgoCgFRLAW3oIc=",
   ]
 }
